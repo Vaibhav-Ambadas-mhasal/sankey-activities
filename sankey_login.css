@@ -1,0 +1,143 @@
+/* Sankey login page */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 700px; */
+    /* width: 800px;  */
+    /* border: 1px solid red; */
+    margin-top: 100px;
+}
+
+.content {
+    display: flex;
+    height: 500px;
+    width: 20px;
+}
+
+.login {
+    width: 800px;
+    min-height: 400px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: white;
+    display: flex;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.content {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content img {
+    width: 150%;
+      /* height: 300%;   */
+}
+
+.loginfrom {
+    flex-basis: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+    background: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form h2 {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+/* .labemail{
+
+} */
+.lab1 {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.lab2 {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.extra1 {
+    display: flex;
+    margin-left: 40px;
+}
+
+.extra1 a {
+    margin-left: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+.Loginbutton {
+    background-color: #04C35C;
+    padding: 10px 100px;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.LoginbuttonGoogle {
+    background-color: #2D3748;
+    padding: 10px 65px;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.extra2 a {
+    text-decoration: none;
+}
+
+.extra2 h4 {
+    margin-bottom: 15px;
+}
+
+
+
+/* hover */
+.LoginbuttonGoogle:hover {
+    /* color: white; */
+    background-color: #04C35C;
+    /* transform: scale(1.3);
+    cursor: pointer; */
+}
+
+.Loginbutton:hover {
+    background-color: #2D3748;
+}
+
+.extra1 :hover {
+    text-decoration: underline;
+}
+
+.extra2 :hover {
+    text-decoration: underline;
+}
+
+.lab1 :hover {
+    text-decoration: underline;
+}
+
+.lab2 :hover {
+    text-decoration: underline;
+}
+
+.wel :hover{
+    text-decoration: underline;
+}
